@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - copys a string with n
+ * _strncpy - copy a string with n
  * @dest: copy to
  * @src: copy from
  * @n: number of char to be printed
@@ -22,6 +22,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[j] = '\0';
 		j++;
 	}
-
 	return (dest);
 }
