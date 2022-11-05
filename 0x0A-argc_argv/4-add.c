@@ -19,4 +19,15 @@ unsigned int count;
 count = 0;
 while (count < strlen(str)) /*count string*/
 
+{
+if (!isdigit(str[count])) /*check if str there are digit */
+{
+return (0);
+}
+
+count++;
+}
+return (1);
+}
+
 
