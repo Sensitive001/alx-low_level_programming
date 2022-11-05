@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Prints the name of the progress
+ * main - Prints the name of the program
  * @argc: count arguments
  * @argv: Arguments
  *
@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 /*Declaring variables*/
-int count - 0;
+int count = 0;
 
 if (argc > 0)
 {
