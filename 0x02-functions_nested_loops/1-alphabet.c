@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point
+ * print_alphabet - entry point
  *
- * Return: 0
+ * Return: o
  */
 
 void print_alphabet(void)
-
 {
 	char c = 'a'
 
@@ -18,5 +17,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-
 }
