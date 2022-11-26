@@ -6,7 +6,7 @@
  * Return: strlen_recursion
  */
 
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
 
 /*Base condition*/
