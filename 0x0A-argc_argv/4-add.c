@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
 
@@ -7,10 +7,10 @@
  * check_num - check - string there are digit
  * @str: array str
  *
- * Return: Always 0 (sucess)
+ *
+ * Return: Always 0 (Success)
  */
-
-int check _num(char *str)
+int check_num(char *str)
 
 {
 /*Declaring variables*/
@@ -37,8 +37,8 @@ return (1);
  *
  * Return: Always 0 (Success)
  */
-
 int main(int argc, char *argv[])
+
 {
 
 /*Declaring variables*/
@@ -65,7 +65,6 @@ return (1);
 
 count++;
 }
-
 printf("%d\n", sum); /*print sum*/
 
 return (0);
